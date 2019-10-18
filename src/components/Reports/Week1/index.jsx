@@ -13,7 +13,7 @@ const Week1 = () => {
     return (
         <>
        <h3>Länk till github</h3>
-            <a href="https://github.com/anll16/jsramverk" target="_blank">@anll16/jsramverk</a>
+            <a href="https://github.com/anll16/jsramverk" target="_blank" rel="noopener noreferrer">@anll16/jsramverk</a>
         <ReactMarkdown source={readMe} />
         </>
     );
